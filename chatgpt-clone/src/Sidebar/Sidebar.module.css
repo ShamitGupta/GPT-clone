@@ -1,0 +1,39 @@
+.sidebarContainer{
+    display: flex;
+    height: 100vh;
+    width: 20vw;
+    justify-content: center;
+    align-items: center;
+    /* color: white; */
+}
+
+.sidebar{
+    background-color: black;
+    height: 90vh;
+    width: 17vw;
+    border: 2px solid white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.newChat{
+    width: 80%;
+    height: 7vh;
+    background-color: rgba(0, 153, 255, 0.696);
+    border-radius: 3px;
+    border: none;
+    color: rgba(255, 255, 255, 0.667);
+    margin-top: 50%;
+    margin-left: 10%;
+}
+
+.newChat:hover{
+    background-color: rgb(0, 153, 255) ;
+    cursor: pointer;
+}
+
+
+
