@@ -8,9 +8,9 @@
 .container .chatOptions{
     width: 100%;
     height: 30%;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     position: relative;
-    top: 7vh;
+    top: 10vh;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -31,4 +31,28 @@
 .container .chatOptions .chatButtons:hover{
     background-color: rgba(128, 128, 128, 0.715);
     border-radius: 7px;
+}
+
+/* This completes the upper portion of the sidebar */
+
+/* Now let's start the bottom portion of the sidebar  */
+
+.container .profileContainer{
+    /* background-color: white; */
+    border-top: 1px solid white;
+    height: 12vh;
+    width: 20vw;
+    position: fixed;
+    bottom: 0px;
+}
+.container .profileContainer .profile{
+    height: 100%;
+    display: flex;
+    color: whitesmoke;
+    justify-content: center;
+    /* align-content: center; */
+    align-items: center;
+}
+.container .profileContainer .profile .logo{
+    height: 30px;
 }
